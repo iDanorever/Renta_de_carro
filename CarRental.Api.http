@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:5101
+
+### Listar autos
+GET {{baseUrl}}/api/cars
+
+### Login de prueba
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@rental.com",
+  "password": "123"
+}
